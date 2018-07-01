@@ -8,7 +8,7 @@
           ".validate": "newData.isString() && newData.val().length <= 48 && newData.val().length >=2"
         },
         "businessNum": {
-          ".validate": "newData.isString() && newData.val().length == 48"
+          ".validate": "newData.isString() && newData.val().length == 9"
         },
         "primaryBusiness": {
           ".validate": "newData.isString() && newData.val().matches(/Fisher|Distributor|Processor|Fish Monger/)"
